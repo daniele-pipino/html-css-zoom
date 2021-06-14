@@ -18,6 +18,12 @@ body{
     border-radius: 10px;
 }
 
+.footer-btn{
+    color: red;
+    background-color: grey;
+    padding: 15px 15px;
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -30,8 +36,32 @@ body{
     padding-left: 10px;
 }
 
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side-flex{
+    display: flex;
+    align-items: center;
+}
+
+.spacing{
+    padding: 5px 0;
+}
+
+.side-spacing{
+    padding: 0 10px;
+}
+
 .opacity{
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.center{
+    text-align: center;
 }
 /* --------header---------- */
 
@@ -62,3 +92,12 @@ main{
     color: white;
     padding: 5px 5px;
 }
+/* -------footer--------- */
+
+.main-footer{
+    height: 100px;
+    background-color: rgb(71, 70, 70);
+    padding: 0 20px;
+    color: white;
+}
+
