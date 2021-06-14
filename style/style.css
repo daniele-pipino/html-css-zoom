@@ -21,11 +21,17 @@ body{
 .flex{
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
+}
+
+.content-flex{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
 
 .opacity{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 /* --------header---------- */
 
@@ -41,9 +47,7 @@ main{
     height: calc(100% - 100px);
 }
 
-
-
-.utent-square{
+.container .utent-square{
     height: 150px;
     width: calc(100% / 5 - 20px);
     background-image: url(../img/176-246x146.jpg);
@@ -53,4 +57,5 @@ main{
 
 .utent-square .square-info{
     color: white;
+    padding: 5px 5px;
 }
