@@ -36,10 +36,13 @@ body{
 /* --------header---------- */
 
 .main-header{
-    height: 100px;
-    line-height: 100px;
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
     text-align: right;
     color: white;
+    background-color: black;
+    position: fixed;
 }
 /* --------main--------- */
 
@@ -48,7 +51,7 @@ main{
 }
 
 .container .utent-square{
-    height: 150px;
+    height: 190px;
     width: calc(100% / 5 - 20px);
     background-image: url(../img/176-246x146.jpg);
     background-size: cover;
